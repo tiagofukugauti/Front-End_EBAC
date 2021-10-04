@@ -15,7 +15,6 @@
 
 8- Arquivo A | Versão 1 | Versão 2 Arquivo B | Versão 1 | Versão 2
 
-
 ## Commits
 
 ### Informação de alteração
