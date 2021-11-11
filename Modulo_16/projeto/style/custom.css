@@ -1,0 +1,41 @@
+section {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+
+img {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.card {
+  width: 32%;
+  float: left;
+  margin: 5px;
+  border: 0px solid white;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgray;
+}
+
+.card:hover {
+  background-color: lightgray;
+}
+
+#logotipo {
+  width: 120px;
+  height: 100px;
+}
+
+#lista {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+textarea.form-control {
+  width: 100% !important;
+}
