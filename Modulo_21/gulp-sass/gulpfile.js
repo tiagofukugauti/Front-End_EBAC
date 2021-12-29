@@ -1,10 +1,10 @@
-const { series, parallel } = imageport('gulp');
+const { series, parallel } = require('gulp');
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const cssmin = require('gulp-cssmin');
 const rename = require('gulp-rename');
 const uglify = require('gulp-uglify');
-const image = require('gulp-image');
+const image = import('gulp-image');
 const stripJs = require('gulp-strip-comments');
 const stripCss = require('gulp-strip-css-comments');
 const htmlmin = require('gulp-htmlmin');
