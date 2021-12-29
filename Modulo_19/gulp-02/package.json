@@ -2,12 +2,13 @@
   "name": "projeto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [],
-  "author": "Marcelo Cavalcante",
+  "author": "Tiago Fukugauti",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.5",
