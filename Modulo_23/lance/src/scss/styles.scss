@@ -1,0 +1,77 @@
+//$color-primary: #195484;
+$color-primary: #63cdf6;
+$color-secondary: #f58220;
+$font-color-primary: #000000;
+$font-color-secondary: #454545;
+$font-default: antipasto, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.9rem;
+
+@import 'fonts';
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import 'nav';
+
+html {
+  font-size: 62.5%;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color-primary;
+  font-family: $font-default;
+  margin: 0;
+}
+
+h1 {
+  color: $font-color-primary;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+article {
+  h1 {
+    color: $color-secondary;
+    font-size: 3rem;
+    text-align: left;
+  }
+}
+
+h2 {
+  color: $font-color-primary;
+  font-family: 'antipasto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 4rem;
+  text-shadow: 1px 2px 8px #ffffff;
+}
+
+#root,
+header,
+section,
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+section {
+  padding: 4rem 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: 90vw;
+}
+
+@import 'animations';
+@import 'header';
+@import 'sobre';
+@import 'produtos';
+@import 'vitrine';
+@import 'steps';
+@import 'faleconosco';
+@import 'footer';

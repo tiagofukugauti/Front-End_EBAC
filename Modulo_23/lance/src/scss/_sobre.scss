@@ -1,0 +1,16 @@
+#sobre {
+  background-color: none;
+  .container {
+    background-color: rgba(156, 220, 249, 0.6);
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    padding: 0 2rem 2rem;
+  }
+
+  article {
+    p {
+      font-size: $font-size-default;
+      color: $font-color-primary;
+    }
+  }
+}
